@@ -1,0 +1,1 @@
+mods.buildcraft.Refinery.addRecipe(<liquid:oil> * 25, 60, 15, <liquid:creosote> * 25, <liquid:creosote> * 25);
