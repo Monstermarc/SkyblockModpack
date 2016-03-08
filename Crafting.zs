@@ -12,6 +12,7 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<GalacticraftCore:tile.aluminumWire:1>);
 recipes.remove(<PortalGun:MiniBlackHole>);
 recipes.remove(<Mekanism:ElectrolyticCore>);
 recipes.remove(<Mekanism:EnergyTablet:100>);
@@ -55,6 +56,8 @@ recipes.remove(<minechem:tile.chemicalDecomposer>);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<GalacticraftCore:tile.aluminumWire:1>, [[<ore:blockCloth>], [<GalacticraftCore:tile.aluminumWire>], [<GalacticraftCore:item.basicItem:8>]]);
+recipes.addShaped(<GalacticraftCore:tile.aluminumWire>, [[<ore:blockCloth>, <ore:blockCloth>, <ore:blockCloth>], [<ore:compressedAluminum>, <GalacticraftCore:item.basicItem:8>, <ore:compressedAluminum>], [<ore:blockCloth>, <ore:blockCloth>, <ore:blockCloth>]]);
 recipes.addShaped(<minecraft:wooden_axe>, [[<ore:plankWood>, <ore:plankWood>], [<ore:stickWood>, <ore:plankWood>], [<ore:stickWood>, null]]);
 recipes.addShaped(<Mekanism:ElectrolyticCore>, [[<bluepower:red_doped_wafer>, <ore:itemEnrichedAlloy>, <bluepower:red_doped_wafer>], [<ore:itemEnrichedAlloy>, <bluepower:red_doped_wafer>, <ore:itemEnrichedAlloy>], [<bluepower:red_doped_wafer>, <ore:itemEnrichedAlloy>, <bluepower:red_doped_wafer>]]);
 recipes.addShaped(<Mekanism:EnergyTablet:100>, [[<ore:itemEnrichedAlloy>, <IC2:itemAdvBat:26>, <ore:itemEnrichedAlloy>], [<bluepower:red_doped_wafer>, <IC2:itemAdvBat:26>, <bluepower:red_doped_wafer>], [<ore:itemEnrichedAlloy>, <IC2:itemAdvBat:26>, <ore:itemEnrichedAlloy>]]);
